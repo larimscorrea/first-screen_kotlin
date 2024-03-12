@@ -28,7 +28,12 @@ class MainActivity : AppCompatActivity() , View.OnClickListener {
         btnDivision = findViewById(R.id.btn_division)
         etA = findViewById(R.id.et_a)
         etB = findViewById(R.id.et_b)
-        resultTv = findViewById(R.id.re)
+        resultTv = findViewById(R.id.result_tv)
+
+        btnAdd.setOnClickListener(this)
+        btnSub.setOnClickListener(this)
+        btnMultiply.setOnClickListener(this)
+        btnDivision.setOnClickListener(this)
 
     }
 

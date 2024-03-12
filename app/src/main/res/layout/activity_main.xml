@@ -63,4 +63,5 @@
         android:text="Result"
         android:textSize="24sp"
         android:layout_margin="20dp"
+        android:id="@+id/result_tv"
         android:gravity="center"  />
