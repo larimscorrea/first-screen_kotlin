@@ -37,9 +37,9 @@ class MainActivity : AppCompatActivity() , View.OnClickListener {
 
     }
 
-    overrride fun onClick(v: View?) {
-        var a = etA.text.toString().toDouble()
-        var b = etB.text.toString().toDouble()
+    override fun onClick(v: View?) {
+        val a = etA.text.toString().toDouble()
+        val b = etB.text.toString().toDouble()
         var result = 0.0
         when(v?.id) {
             R.id.btn_add -> {
@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() , View.OnClickListener {
                 result = a/b
             }
         }
-        resultTv.text = "Result is $result"
+        val also = ("Result is " + result).also { resultTv.text = it }
     }
 }
 

@@ -13,14 +13,16 @@
         android:layout_height="wrap_content"
         android:id="@+id/et_a"
         android:layout_margin="20dp"
-        android:hint="Enter a " />
+        android:hint="Enter a "
+        tools:ignore="HardcodedText" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/et_b"
         android:layout_margin="20dp"
-        android:hint="Enter b " />
+        android:hint="Enter b "
+        tools:ignore="HardcodedText" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,28 +34,32 @@
             android:layout_height="wrap_content"
             android:id="@+id/btn_add"
             android:layout_margin="4dp"
-            android:text="+" />
+            android:text="@string/add"
+            tools:ignore="ButtonStyle" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btn_subtraction"
             android:layout_margin="4dp"
-            android:text="-" />
+            android:text="@string/subtraction"
+            tools:ignore="ButtonStyle" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btn_multiplication"
             android:layout_margin="4dp"
-            android:text="*" />
+            android:text="*"
+            tools:ignore="ButtonStyle,HardcodedText" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btn_division"
             android:layout_margin="4dp"
-            android:text="/" />
+            android:text="/"
+            tools:ignore="ButtonStyle,HardcodedText" />
 
 </LinearLayout>
 
@@ -64,4 +70,5 @@
         android:textSize="24sp"
         android:layout_margin="20dp"
         android:id="@+id/result_tv"
-        android:gravity="center"  />
+        android:gravity="center"
+        tools:ignore="HardcodedText" />

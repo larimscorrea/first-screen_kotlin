@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FirstScreenApp</string>
+    <string name="add">+</string>
+    <string name="subtraction">-</string>
 </resources>
