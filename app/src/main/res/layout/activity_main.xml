@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -24,17 +25,19 @@
         android:hint="Enter b "
         tools:ignore="HardcodedText" />
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btn_add"
             android:layout_margin="4dp"
-            android:text="@string/add"
+            android:text="+"
             tools:ignore="ButtonStyle" />
 
         <Button
@@ -42,7 +45,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/btn_subtraction"
             android:layout_margin="4dp"
-            android:text="@string/subtraction"
+            android:text="-"
             tools:ignore="ButtonStyle" />
 
         <Button
@@ -60,8 +63,8 @@
             android:layout_margin="4dp"
             android:text="/"
             tools:ignore="ButtonStyle,HardcodedText" />
+    </LinearLayout>
 
-</LinearLayout>
 
     <TextView
         android:layout_width="match_parent"
@@ -72,3 +75,4 @@
         android:id="@+id/result_tv"
         android:gravity="center"
         tools:ignore="HardcodedText" />
+</LinearLayout>

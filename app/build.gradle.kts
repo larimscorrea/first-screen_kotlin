@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.firstscreenapp"
+    namespace = "com.example.FirstScreenApp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.firstscreenapp"
+        applicationId = "com.example.FirstScreenApp"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
@@ -19,7 +19,7 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = true
+            isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
