@@ -9,7 +9,7 @@ import android.widget.TextView
 import com.np.bimalkafle.R
 import org.w3c.dom.Text
 
-class MainActivity : AppCompatActivity() , View.OnClickListener {
+class MainActivity : AppCompatActivity() , View.OnClickListener, R {
     lateinit var btnAdd : Button
     lateinit var btnSub : Button
     lateinit var btnMultiply : Button
