@@ -6,10 +6,8 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
-import com.np.bimalkafle.R
-import org.w3c.dom.Text
 
-class MainActivity : AppCompatActivity() , View.OnClickListener, R {
+class MainActivity : AppCompatActivity() , View.OnClickListener {
     lateinit var btnAdd : Button
     lateinit var btnSub : Button
     lateinit var btnMultiply : Button
